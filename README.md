@@ -11,7 +11,17 @@ The script was only tested on Linux, but should also work on other operating sys
 The script works on both Python 2 and Python 3.
 
 # Requirements
-The only requirement is [`docopt`](docopt.org) module, used for parsing arguments.
+The only requirement is [`docopt`](docopt.org) module, used for parsing arguments. This can be installed with `pip`, e.g. by:
+```
+pip install -r requirements.txt
+```
+
+Or, if you don't have `pip` in your PATH:
+```
+python -m pip install -r requirements.txt
+```
+
+If you don't have `pip` installed, refered to [this](https://pip.pypa.io/en/stable/installing/).
 
 # Usage
 ```
